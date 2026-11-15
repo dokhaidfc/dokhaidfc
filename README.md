@@ -90,7 +90,7 @@ I work across the full delivery path at **DFC Flow** — from database schema to
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=dokhaidfc&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=github_dark" alt="GitHub stats" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dokhaidfc&theme=github_dark" alt="GitHub stats" />
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=dokhaidfc&hide_border=true&theme=github-dark-blue" alt="Streak" />
 
 </div>
