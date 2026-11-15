@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060A17"/><stop offset="1" stop-color="#0E1834"/></linearGradient>
+  <clipPath id="round"><rect width="1200" height="400" rx="22"/></clipPath>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1" opacity=".55"/>
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="12s" repeatCount="indefinite"/>
+  </pattern>
+  <radialGradient id="fade" cx=".5" cy=".5" r=".75"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="gridMask"><rect width="1200" height="400" fill="url(#fade)"/></mask>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+  <linearGradient id="tg" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+    <stop offset="0" stop-color="#22D3EE"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#A78BFA"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1200 0" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+</defs>
+<style>
+  .up{animation:up .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+  .blink{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  
+</style>
+<g clip-path="url(#round)">
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)" mask="url(#gridMask)"/>
+  
+  
+  <circle cx="980" cy="80" r="160" fill="#3B82F6" opacity=".35" filter="url(#blur)">
+    <animate attributeName="cx" values="980;900;980" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="80;140;80" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="200" cy="360" r="180" fill="#A78BFA" opacity=".35" filter="url(#blur)">
+    <animate attributeName="cx" values="200;290;200" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="360;320;360" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="760" cy="360" r="120" fill="#22D3EE" opacity=".35" filter="url(#blur)">
+    <animate attributeName="cx" values="760;700;760" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="360;330;360" dur="16s" repeatCount="indefinite"/>
+  </circle>
+
+  <g class="up" style="animation-delay:.1s">
+    <rect x="70" y="62" width="300" height="32" rx="16" fill="#0B1226" stroke="#1E293B"/>
+    <circle cx="92" cy="78" r="5" fill="#34D399"/>
+    <circle cx="92" cy="78" r="5" fill="none" stroke="#34D399" stroke-width="2">
+      <animate attributeName="r" values="5;12" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="108" y="83" font-size="13" font-weight="600" letter-spacing="1.6" fill="#94A3B8">ENGINEERING · DFC FLOW</text>
+  </g>
+
+  <text class="up" style="animation-delay:.3s" x="66" y="182" font-size="92" font-weight="800" letter-spacing="-2" fill="url(#tg)">Khai</text>
+  <text class="up" style="animation-delay:.45s" x="300" y="182" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="22" fill="#64748B">@dokhaidfc</text>
+
+  <text class="up" style="animation-delay:.6s" x="70" y="232" font-size="32" font-weight="600" fill="#E2E8F0">Full-Stack Software Engineer</text>
+  <text class="up" style="animation-delay:.75s" x="70" y="268" font-size="18" fill="#94A3B8">Multi-tenant Commerce &amp; ERP platform · APIs · Data · Web · Automation</text>
+
+  <g class="up" style="animation-delay:.9s">
+    <rect x="70" y="300" width="520" height="46" rx="10" fill="#050814" stroke="#1E293B"/>
+    <circle cx="92" cy="323" r="5" fill="#F87171"/><circle cx="110" cy="323" r="5" fill="#FBBF24"/><circle cx="128" cy="323" r="5" fill="#34D399"/>
+    <clipPath id="type"><rect x="150" y="305" width="0" height="36">
+      <animate attributeName="width" values="0;0;420;420;0" keyTimes="0;.12;.55;.92;1" dur="7s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text clip-path="url(#type)" x="152" y="329" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="16" fill="#22D3EE">$ ship --trace --impact --verify<tspan fill="#34D399">  ✓ released</tspan></text>
+  </g>
+
+  <g transform="translate(960 205)">
+    <g class="up" style="animation-delay:.5s">
+      <g><circle r="150" fill="none" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="3 7"/><circle cx="141.0" cy="51.3" r="5" fill="#A78BFA" filter="url(#glow)"/><circle cx="-114.9" cy="96.4" r="5" fill="#A78BFA" filter="url(#glow)"/><circle cx="-26.0" cy="-147.7" r="5" fill="#A78BFA" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/></g>
+      <g><circle r="108" fill="none" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="3 7"/><circle cx="36.9" cy="101.5" r="5" fill="#22D3EE" filter="url(#glow)"/><circle cx="-101.5" cy="-36.9" r="5" fill="#22D3EE" filter="url(#glow)"/><circle cx="82.7" cy="-69.4" r="5" fill="#22D3EE" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="40s" repeatCount="indefinite"/></g>
+      <g><circle r="66" fill="none" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="3 7"/><circle cx="66.0" cy="0.0" r="5" fill="#3B82F6" filter="url(#glow)"/><circle cx="-66.0" cy="0.0" r="5" fill="#3B82F6" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/></g>
+      <circle r="40" fill="#0B1226" stroke="url(#tg)" stroke-width="2"/>
+      <circle r="40" fill="none" stroke="#22D3EE" stroke-width="1" opacity=".6">
+        <animate attributeName="r" values="40;58" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".6;0" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text y="-2" font-size="15" font-weight="800" fill="#E2E8F0" text-anchor="middle" letter-spacing="1">DFC</text>
+      <text y="15" font-size="10" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="1.5">FLOW</text>
+    </g>
+    <g class="up" style="animation-delay:1.2s"><rect x="-90" y="-136" width="52" height="26" rx="13" fill="#0B1226" stroke="#1E293B"/><text x="-64" y="-118" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" text-anchor="middle">API</text></g><g class="up" style="animation-delay:1.3499999999999999s"><rect x="92" y="-54" width="52" height="26" rx="13" fill="#0B1226" stroke="#1E293B"/><text x="118" y="-36" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" text-anchor="middle">SQL</text></g><g class="up" style="animation-delay:1.5s"><rect x="66" y="90" width="52" height="26" rx="13" fill="#0B1226" stroke="#1E293B"/><text x="92" y="108" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" text-anchor="middle">UI</text></g><g class="up" style="animation-delay:1.65s"><rect x="-158" y="56" width="52" height="26" rx="13" fill="#0B1226" stroke="#1E293B"/><text x="-132" y="74" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" text-anchor="middle">CMS</text></g><g class="up" style="animation-delay:1.7999999999999998s"><rect x="-176" y="-54" width="52" height="26" rx="13" fill="#0B1226" stroke="#1E293B"/><text x="-150" y="-36" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#94A3B8" text-anchor="middle">AI</text></g>
+  </g>
+</g>
+<rect x=".5" y=".5" width="1199" height="399" rx="22" fill="none" stroke="#1E293B"/>
+</svg>

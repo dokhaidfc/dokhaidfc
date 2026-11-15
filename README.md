@@ -1,106 +1,87 @@
 <div align="center">
 
-# Khai · `@dokhaidfc`
+<img src="assets/hero.svg" width="100%" alt="Khai — Full-Stack Software Engineer at DFC Flow" />
 
-### Full-Stack Software Engineer — **DFC Flow**
+<br/>
 
-*Building the AMOIQ commerce & ERP platform: multi-tenant APIs, data layer, and operator-facing web apps.*
+<a href="https://github.com/dokhaidfc">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+multi-tenant+Commerce+%26+ERP+platforms;APIs+%C2%B7+PostgreSQL+%C2%B7+Next.js+%C2%B7+Automation;Evidence-first.+Impact-aware.+Verified+on+staging." alt="Typing tagline" />
+</a>
 
-[![Organization](https://img.shields.io/badge/Org-DFCflow-0A0A0A?style=for-the-badge&logo=github)](https://github.com/DFCflow)
-[![Role](https://img.shields.io/badge/Role-Full--Stack%20Engineer-2563EB?style=for-the-badge)](#-role-in-the-team)
-[![Focus](https://img.shields.io/badge/Focus-ERP%20%C2%B7%20Commerce%20%C2%B7%20CMS-16A34A?style=for-the-badge)](#-platform-ownership)
+<br/><br/>
+
+<a href="https://github.com/DFCflow"><img src="https://img.shields.io/badge/DFC%20Flow-Engineering-0B1226?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=060A17" alt="DFC Flow" /></a>
+<img src="https://img.shields.io/badge/Role-Full--Stack%20Engineer-0B1226?style=for-the-badge&labelColor=060A17&color=3B82F6" alt="Role" />
+<img src="https://img.shields.io/badge/Domain-ERP%20%C2%B7%20Commerce%20%C2%B7%20CMS-0B1226?style=for-the-badge&labelColor=060A17&color=A78BFA" alt="Domain" />
+<img src="https://komarev.com/ghpvc/?username=dokhaidfc&style=for-the-badge&color=0B1226&label=Profile+views" alt="Profile views" />
 
 </div>
 
----
+<br/>
 
-## 🧭 Role in the Team
+<img src="assets/h-role.svg" width="100%" alt="01 — Role in the Team" />
 
-I work across the full delivery path at **DFC Flow** — from database schema to the screen an operator clicks — on the **AMOIQ** platform that runs commerce, fulfillment, CRM and content operations for multiple brands (tenants).
+<img src="assets/roles.svg" width="100%" alt="Backend & APIs · Data Layer · ERP Frontend · Content Platform · Automation & AI · Release Quality" />
 
-| Area | What I own |
+<br/><br/>
+
+<img src="assets/h-arch.svg" width="100%" alt="02 — Platform Architecture" />
+
+<img src="assets/architecture.svg" width="100%" alt="Experience layer (EIOS ERP, CMS, Storefronts) → Core API and Workers → PostgreSQL/PostgREST and Search" />
+
+<br/><br/>
+
+<img src="assets/h-ship.svg" width="100%" alt="03 — How I Ship" />
+
+<img src="assets/pipeline.svg" width="100%" alt="Trace → Impact → Slice → Review → Staging → Release" />
+
+<details>
+<summary><b>Engineering principles</b></summary>
+<br/>
+
+| Principle | In practice |
 |---|---|
-| **Backend & APIs** | Design and ship REST endpoints on the core Express API; contract-first changes, tenant isolation, auth & visibility rules |
-| **Data layer** | PostgreSQL schema, PostgREST views and migrations; query performance and safe, reversible rollouts |
-| **ERP frontend** | Feature delivery on the EIOS web app (Next.js / React / TypeScript) — workflows, boards, dashboards |
-| **CMS** | Headless CMS admin and page renderer used by tenant storefronts |
-| **Automation** | Scheduled jobs, background processing, and AI-assisted engineering workflows |
-| **Release quality** | Code review, impact analysis, staging verification and release management |
+| **Evidence first** | Every fix starts from a traced root cause, never a guess |
+| **Impact before edit** | Cross-repo consumers and affected features are checked before shared code changes |
+| **Small slices** | One shippable change per PR, squashed into `develop` |
+| **Linear releases** | Release branches are `main` + cherry-picks — no merge noise |
+| **Verified, not assumed** | Reviewed, QA-tested and smoke-checked on a deployed environment |
+| **Safe data changes** | Migrations proven inside transactions; snapshot & restore on shared DBs |
 
----
+</details>
 
-## 🏗️ Platform Ownership
+<br/>
 
-```text
-┌──────────────────────┐     ┌──────────────────────┐     ┌────────────────────┐
-│  EIOS ERP (Next.js)  │     │  CMS Admin / Render  │     │  Brand Storefronts │
-└──────────┬───────────┘     └──────────┬───────────┘     └─────────┬──────────┘
-           │                            │                           │
-           └──────────────┬─────────────┴───────────────┬───────────┘
-                          ▼                             ▼
-              ┌───────────────────────┐     ┌───────────────────────┐
-              │   Core API (Express)  │◄───►│  Scheduler / Workers  │
-              └───────────┬───────────┘     └───────────────────────┘
-                          ▼
-              ┌───────────────────────┐
-              │ PostgreSQL + PostgREST│
-              └───────────────────────┘
-```
-
----
-
-## ⚙️ How I Ship
-
-- **Evidence first** — every bug fix starts with a traced root cause, not a guess.
-- **Impact analysis before edit** — check cross-repo consumers and affected features before touching shared code.
-- **Small, reviewable slices** — one shippable change per PR, squash into `develop`, linear cherry-pick release branches into `main`.
-- **Verified on staging** — reviewed, tested and smoke-checked on a deployed environment before it is called done.
-- **Safe data changes** — migrations proven inside transactions, with snapshot & restore on shared environments.
-
----
-
-## 🧰 Tech Stack
-
-**Languages**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Backend & Data**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![PostgREST](https://img.shields.io/badge/PostgREST-2E7D32?style=flat-square)
-![Typesense](https://img.shields.io/badge/Typesense-D52E5C?style=flat-square)
-
-**Infra & Tooling**
-![Fly.io](https://img.shields.io/badge/Fly.io-7B3FE4?style=flat-square&logo=flydotio&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Claude Code](https://img.shields.io/badge/AI--assisted-Claude_Code-D97757?style=flat-square)
-
----
-
-## 📊 Activity
+<img src="assets/h-stack.svg" width="100%" alt="04 — Tech Stack" />
 
 <div align="center">
-
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dokhaidfc&theme=github_dark" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=dokhaidfc&hide_border=true&theme=github-dark-blue" alt="Streak" />
-
+<br/>
+<img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,postgres,react,nextjs,tailwind&theme=dark" alt="Languages & frameworks" />
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=vercel,githubactions,git,github,vscode&theme=dark" alt="Infra & tooling" />
+<br/><br/>
+<img src="https://img.shields.io/badge/PostgREST-0B1226?style=flat-square&labelColor=060A17&color=34D399" alt="PostgREST" />
+<img src="https://img.shields.io/badge/Typesense-0B1226?style=flat-square&labelColor=060A17&color=D52E5C" alt="Typesense" />
+<img src="https://img.shields.io/badge/Fly.io-0B1226?style=flat-square&logo=flydotio&logoColor=A78BFA" alt="Fly.io" />
+<img src="https://img.shields.io/badge/Claude%20Code-AI--assisted%20engineering-0B1226?style=flat-square&labelColor=060A17&color=D97757" alt="Claude Code" />
 </div>
 
----
+<br/>
+
+<img src="assets/h-activity.svg" width="100%" alt="05 — Activity" />
 
 <div align="center">
-
-**Open to collaboration on ERP, commerce platforms and developer tooling.**
-
-<sub>Most of my work lives in private DFC Flow repositories — this page summarizes the scope.</sub>
-
+<br/>
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dokhaidfc&theme=github_dark" alt="Stats" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=dokhaidfc&theme=github-dark-blue&hide_border=true&background=0B1226&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE" alt="Streak" />
+<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dokhaidfc/dokhaidfc/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dokhaidfc/dokhaidfc/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/dokhaidfc/dokhaidfc/output/snake-dark.svg" width="100%" alt="Contribution snake" />
+</picture>
 </div>
+
+<br/>
+
+<img src="assets/footer.svg" width="100%" alt="Built to ship. Verified to last." />
