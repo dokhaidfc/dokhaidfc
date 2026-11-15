@@ -1,38 +1,32 @@
-<div align="center">
-
 <img src="assets/hero.svg" width="100%" alt="Khai — Full-Stack Software Engineer at DFC Flow" />
 
+<div align="center">
 <br/>
 
-<a href="https://github.com/dokhaidfc">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+multi-tenant+Commerce+%26+ERP+platforms;APIs+%C2%B7+PostgreSQL+%C2%B7+Next.js+%C2%B7+Automation;Evidence-first.+Impact-aware.+Verified+on+staging." alt="Typing tagline" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/DFCflow"><img src="https://img.shields.io/badge/DFC%20Flow-Engineering-0B1226?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=060A17" alt="DFC Flow" /></a>
-<img src="https://img.shields.io/badge/Role-Full--Stack%20Engineer-0B1226?style=for-the-badge&labelColor=060A17&color=3B82F6" alt="Role" />
-<img src="https://img.shields.io/badge/Domain-ERP%20%C2%B7%20Commerce%20%C2%B7%20CMS-0B1226?style=for-the-badge&labelColor=060A17&color=A78BFA" alt="Domain" />
-<img src="https://komarev.com/ghpvc/?username=dokhaidfc&style=for-the-badge&color=0B1226&label=Profile+views" alt="Profile views" />
+<a href="https://github.com/DFCflow"><img src="https://img.shields.io/badge/DFC%20Flow-Engineering-161B22?style=flat-square&logo=github&logoColor=C9D1D9" alt="DFC Flow" /></a>
+<img src="https://img.shields.io/badge/Role-Full--Stack%20Engineer-161B22?style=flat-square" alt="Role" />
+<img src="https://img.shields.io/badge/Domain-ERP%20%C2%B7%20Commerce%20%C2%B7%20CMS-161B22?style=flat-square" alt="Domain" />
+<img src="https://komarev.com/ghpvc/?username=dokhaidfc&style=flat-square&color=30363D&label=Profile+views" alt="Profile views" />
 
 </div>
 
 <br/>
 
-<img src="assets/h-role.svg" width="100%" alt="01 — Role in the Team" />
+<img src="assets/highlights.svg" width="100%" alt="Full-stack · Commerce / ERP · Evidence first · DFC Flow" />
 
+<br/><br/>
+
+<img src="assets/h-role.svg" width="100%" alt="01 — Role in the Team" />
 <img src="assets/roles.svg" width="100%" alt="Backend & APIs · Data Layer · ERP Frontend · Content Platform · Automation & AI · Release Quality" />
 
 <br/><br/>
 
 <img src="assets/h-arch.svg" width="100%" alt="02 — Platform Architecture" />
-
-<img src="assets/architecture.svg" width="100%" alt="Experience layer (EIOS ERP, CMS, Storefronts) → Core API and Workers → PostgreSQL/PostgREST and Search" />
+<img src="assets/architecture.svg" width="100%" alt="Experience (EIOS ERP, CMS, Storefronts) → Services (Core API, Scheduler & Workers) → Data (PostgreSQL + PostgREST, Search)" />
 
 <br/><br/>
 
 <img src="assets/h-ship.svg" width="100%" alt="03 — How I Ship" />
-
 <img src="assets/pipeline.svg" width="100%" alt="Trace → Impact → Slice → Review → Staging → Release" />
 
 <details>
@@ -53,27 +47,18 @@
 <br/>
 
 <img src="assets/h-stack.svg" width="100%" alt="04 — Tech Stack" />
+<img src="assets/stack.svg" width="100%" alt="Languages · Backend · Data & Search · Frontend · Platforms · Automation & AI · Cloud & Delivery · Tools" />
 
-<div align="center">
-<br/>
-<img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,postgres,react,nextjs,tailwind&theme=dark" alt="Languages & frameworks" />
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=vercel,githubactions,git,github,vscode&theme=dark" alt="Infra & tooling" />
-<br/><br/>
-<img src="https://img.shields.io/badge/PostgREST-0B1226?style=flat-square&labelColor=060A17&color=34D399" alt="PostgREST" />
-<img src="https://img.shields.io/badge/Typesense-0B1226?style=flat-square&labelColor=060A17&color=D52E5C" alt="Typesense" />
-<img src="https://img.shields.io/badge/Fly.io-0B1226?style=flat-square&logo=flydotio&logoColor=A78BFA" alt="Fly.io" />
-<img src="https://img.shields.io/badge/Claude%20Code-AI--assisted%20engineering-0B1226?style=flat-square&labelColor=060A17&color=D97757" alt="Claude Code" />
-</div>
-
-<br/>
 
 <img src="assets/h-activity.svg" width="100%" alt="05 — Activity" />
 
 <div align="center">
 <br/>
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dokhaidfc&theme=github_dark" alt="Stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=dokhaidfc&theme=github-dark-blue&hide_border=true&background=0B1226&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE" alt="Streak" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dokhaidfc&theme=github_dark" alt="Stats" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dokhaidfc&theme=github_dark" alt="Languages" />
+<br/>
+<img height="165" src="https://streak-stats.demolab.com?user=dokhaidfc&background=0D1117&border=21262D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=C9D1D9&sideLabels=8B949E&dates=6E7681" alt="Streak" />
 <br/><br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dokhaidfc/dokhaidfc/output/snake-dark.svg" />
